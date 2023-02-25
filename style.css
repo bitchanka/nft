@@ -1,0 +1,460 @@
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+header{
+    background-color: #ffff;
+    width: 100%;
+    height: 76px;
+    border-bottom: 1px solid #F8E0FB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+   
+}
+.header_img{
+    width: 151px;
+    height: 40px;
+    margin: 18px auto;
+    
+    
+}
+.menu_wrapper{
+    display: flex;
+}
+.menu_wrapper a{
+ color: #000000;
+ text-decoration: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+width: 68px;
+height: 44px;
+margin-right: 32px;
+white-space: nowrap;
+opacity: 0.5;
+
+}
+
+/* section sellNft*/
+.section_sellNft{
+    display:flex;
+    flex-flow: column;
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.section_sellNft h1{
+    font-family: 'Syne';
+    text-align:center;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+   color: #000000;
+    text-shadow: -5px 5px 0px #ffffff;
+    padding-top: 117px;
+    margin: 0 auto;
+}
+.section_sellNft p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #532C59;
+padding-top: 32px;
+margin-bottom: 32px;
+}
+.section_sellNft button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px;
+    width: 114px;
+    background-color: #532C59;
+    border-radius: 15px;
+    margin: 0 auto;
+    color: #ffff;
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 16px;
+   line-height: 20px;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+button:hover{
+   background: #E36CE6;
+   box-shadow: 0 0 5px #E36CE6,0 0 25px
+   #E36CE6,0 0 50px #E36CE6,0 0 200px #E36CE6;
+}
+.sellNft_bg{
+ position:absolute;
+max-width: 1440px;
+width: 100%;
+height: 499px;
+left: 0px;
+top: 57px;
+background: pink;
+background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+opacity: 1;
+filter: blur(116px);
+z-index: -1;
+}
+.section_sellNft img{
+    position:absolute;
+    
+}
+.sellNft_pics1{
+ width: 173px;
+ height: 174px;
+ left: 53px;
+ top: 5px;
+}
+.sellNft_pics2{
+    width: 299px;
+   height: 300px;
+   left: -16px;
+   top: 298px;
+}
+.sellNft_pics3{
+    width: 111px;
+height: 112px;
+right: 167px;
+top: 67px;
+
+}
+.sellNft_pics4{
+    width: 211px;
+height: 211px;
+right: 33px;
+top: 387px;
+}
+/*section partners*/
+.partners{
+    display: flex;
+    justify-content: center;
+   padding:  40px 0px ;
+   margin: 0 auto;
+   margin-top: 101px;
+   max-width: 1440px;
+  
+}
+.partners  img{
+    margin-right: 40px;
+}
+.partners img :last-child{
+margin-right: 0px;
+}
+/*section  team */
+.section_team{
+    display: flex;
+   flex-flow: column;
+   margin-top: 80px;
+}
+.section_team h2{
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+color: #000000;
+
+}
+.section_team h3{
+     font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #532C59;
+margin: 0;
+}
+ .section_team .wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 160px;
+    padding-top: 80px;
+}
+.team_wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 100px;
+}
+.team_wrapper p{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #000000;
+margin-top: 12px;
+margin-bottom: 12px;
+white-space: nowrap;
+}
+.team_wrapper span{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #532C59;
+}
+/*section collection*/
+.nft_h2{
+    font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+text-align:center;
+color: #000000;
+}
+.nft_h3{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #532C59;
+margin-bottom: 64px;
+}
+.section_collections{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.section_collections .wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.collection_wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 412px;
+    margin: 0 16px;
+    margin-bottom: 64px;
+    margin-top: 16px;
+}
+
+.collection_wrapper p{
+    font-family: 'Syne';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 42px;
+text-align: center;
+color: #000000;
+margin: 0;
+padding-bottom: 12px;
+margin-top: 16px;
+}
+.collection_wrapper span{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+text-align: center;
+
+/* Accent */
+
+color: #532C59;
+}
+
+/*section collection end*/
+/*section provide*/
+.providing{
+    display: flex;
+    flex-flow: column;
+}
+.provide_h2{
+    font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+color: #000000;
+}
+.provide_h3{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #532C59;
+}
+.wrapper1{
+    display: flex;
+   flex-flow: row wrap;
+    padding-top: 56px;
+    margin: 0 auto ;
+}
+.providing_wrapper{
+    width: 301px;
+    margin: 0 16px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.providing_wrapper p{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+text-align: center;
+color: #000000;
+margin:12px 0;
+}
+.providing_wrapper span{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #532C59;
+}
+/*section provide end*/
+/*qa wrapper*/
+.section_qanda{
+    display: flex;
+    justify-content: center;
+    min-width: 1440px;
+    margin: 0 auto;
+}
+.section_qanda .text_wrapper{
+    display: flex;
+    flex-flow: column;
+    margin-right: 32px;
+    max-width: 412px;
+}
+.section_qanda .wrapper3{
+margin-right: 32px;
+}
+.section_qanda h2{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+margin-bottom: 24px;
+margin-top: 0px;
+}
+.section_qanda h3{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+margin: 0;
+}
+.qa_wrapper{
+    display: flex;
+    flex-flow: column;
+    padding: 24px;
+    border: 2px solid #D6BCFA;
+    border-radius: 15px;
+    background: #FCFAFF;
+    position: relative;
+    max-width: 412px;
+    height:fit-content;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+.qa_wrapper p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.8;
+    margin: 0;
+    padding-bottom: 12px;
+}
+.qa_wrapper span{
+ display: flex;
+ font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #532C59;
+overflow: hidden;
+transition: 0.3s;
+}
+.qa_wrapper svg{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    cursor: pointer;
+}s
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+footer .top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 41px;
+    border-bottom: 1px solid #CCD5DF;
+}
+footer .top a{
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+opacity: 0.5;
+text-decoration: none;
+margin-right: 24px;
+}
+footer .top .a_wrapper a:last-child{
+    margin-right: 0px;
+}
+footer .bottom{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/*section ready end*/
+/*qa wrapper end*/
